@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+body{
+    width: 100%;
+    background-color: #edf7fb;
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    background-image: url(attachment_114583999.jfif);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+}
+
+a{
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left{
+    width: 500px;
+    height: 400px;
+    background-color: #d9e1f8;
+    border-radius: 20px;
+}
+
+.left h1{
+    font-size: 50px;
+    padding: 10px 20px;
+}
+
+
+.left p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    padding: 10px 20px;
+
+}
+
+
+
+.right{
+    width: 600px;
+    height: 600px;
+    background-image: url(ONE.jpg);
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+
+
+.products{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.products .header h1{
+    font-size: 50px;
+}
+
+.products .items{
+    width: 90%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.products .items .item{
+    background-color: #d9e1f8;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact{
+    width: 100%;
+    height: 100px;
+    background-color: #d9e1f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .left{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .left h1{
+        font-size: 40px;
+    }
+    
+    
+    .left p{
+        font-size: 13px;
+    }
+    
+    
+    
+    .right{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+
+@media only screen and (max-width: 830px) {
+
+    .left{
+        width: 350px;
+        height: 250px;
+    }
+    
+    .left h1{
+        font-size: 35px;
+    }
+    
+    
+    .left p{
+        font-size: 11px;
+    }
+    
+    
+    
+    .right{
+        width: 350px;
+        height: 350px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 730px) {
+
+    .left{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .left h1{
+        font-size: 30px;
+    }
+    
+    
+    .left p{
+        font-size: 8px;
+    }
+    
+    
+    
+    .right{
+        width: 300px;
+        height: 300px;
+    }
+
+    .products .header h1{
+        font-size: 40px;
+    }
+
+
+    a{
+        font-size: 13px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 610px) {
+
+    .left{
+        width: 350px;
+        height: 250px;
+    }
+    
+    .left h1{
+        font-size: 30px;
+    }
+    
+    
+    .left p{
+        font-size: 10px;
+    }
+    
+    
+    
+    .right{
+        width: 350px;
+        height: 350px;
+    }
+
+    .products .header h1{
+        font-size: 35px;
+    }
+
+
+    a{
+        font-size: 12px;
+    }
+    
+    .body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contact h1{
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+
+    .left{
+        width: 350px;
+        height: 200px;
+    }
+
+    .left h1{
+        font-size: 25px;
+    }
+
+    .products .header h1{
+        font-size: 30px;
+    }
+
+    .products .items{
+        grid-template-columns: auto auto ;
+    }
+
+    i{
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+    
+    a{
+        font-size: 10px;
+    }
+
+
+    .left{
+        width: 350px;
+        height: 180px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 380px) {
+
+    .contact{
+        width: 105%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .left{
+        width: 300px;
+        height: 250px;
+    }
+
+
+}
